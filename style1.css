@@ -1,0 +1,96 @@
+@media screen and (max-width: 1280px)
+{
+	#bloc_page
+	{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		width: 99%;
+	}
+	
+	header
+	{
+		order: 0;
+	}
+	
+	section
+	{
+		display: flex;
+		flex-direction: column;
+		order: 1;
+		
+	}
+	
+	article
+	{
+		order: 1;
+		width: 100%;
+		text-align: center;
+		
+	}
+	aside
+	{
+	    order: 0;
+		width: 97%;
+		margin-bottom: 20px;
+		
+	}
+	aside h1
+	{
+		text-align: center;
+	}
+	#photo_zozor
+	{
+		width: 500px;
+		margin-left: 200px;
+		
+	}
+	.photoArticle
+	{
+		width: 300px;
+	}
+	
+	footer
+	{
+		order: 3;
+		margin-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+	FORM
+	{
+		width: 99%;
+		margin-bottom: 20px;
+		
+	}
+	FORM p, FORM input[texte]
+	{
+		width: 50%;
+		border-left: 220px;
+		
+	}
+	
+	FORM input[textarea]
+	{
+		width: 100%;
+
+	}
+	
+	.boutton
+	{
+		width: 10%;
+		text-align: center;
+	}
+	#banniere_image
+	{
+		padding-bottom: 40px;
+	}
+	
+	#jardinnage
+	{
+		
+		text-align: justify;
+	}
+	
+}	
+

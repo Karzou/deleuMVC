@@ -1,0 +1,424 @@
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body
+{
+	background: url('images/fond-orange.jpg');
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	color: #181818;
+}
+#bloc_page
+{
+	width: 900px;
+	margin: auto;
+}
+section h1, footer h1, nav a
+{
+	font-family: Dayrom, serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+header
+{
+	background: url('images/separateur.png') repeat-x bottom;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+#titre_principal
+{
+	display: flex;
+	flex-direction: column;
+}
+#logo
+{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+#logo img
+{
+	width: 59px;
+	height: 60px;
+}
+header h1
+{
+	font-family: 'BallparkWeiner', serif;
+	font-size: 2.5em;
+	font-weight: normal;
+	margin: 0 0 0 10px;
+}
+
+header h2
+{
+	font-family: dayrom, serif;
+	font-size: 1.1em;
+	margin-top: 0px;
+	font-weight: normal;
+}
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+article
+{
+    background-color: #8B4513;
+     box-shadow: 0px 4px 4px #1c1a19;
+    
+}
+
+article img
+{
+    border-left: 10px;
+}
+.devis
+{
+	font-family: Dayrom, serif;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	display: flex;
+}
+
+#mail
+{
+	background-color : #8B4513;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#mail:hover
+{
+	color: orange;
+}
+
+/* Bannière */
+
+#banniere_image
+{
+    margin-top: 0px;
+    height: 40px;
+    border-radius: 5px;
+    
+    background-color: #8B4513;
+background-position: center;
+    
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 80%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.8em;
+    
+}
+#banniere_descritpion h1
+{
+    color: white;
+    text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+/* Corps */
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+    margin-right: 20px;
+    flex: 3;
+    color: white;
+}
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: #8B4513;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+#fleche_bulle
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+#photo_zozor
+{
+    text-align: center;
+    
+    
+}
+
+#photo_zozor img
+{
+    border: 1px solid #181818;
+    width: 50%;
+
+}
+
+aside img
+{
+    margin-right: 5px;
+}
+
+/* Footer */
+
+footer
+{
+    margin-top: 0px;
+    height: 40px;
+    border-radius: 5px;
+    
+    background-color: #8B4513;
+background-position: center;
+    
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+footer p, footer ul
+{
+    font-size: 1em;
+    color: white;
+    text-align : center;
+    padding-top: 10px;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+.photoArticle
+{
+   width: 197px;
+   height: 197px;
+   margin-left: 1px;
+   position: relative;
+   padding-bottom: 5px;
+}
+
+
+.photo
+{
+   display: block;
+   background-color: #8B4513;
+   padding-bottom: 30px;
+   box-shadow: 0px 4px 4px #1c1a19;
+   border-radius: 5px;
+   
+}
+
+.photo h1
+{
+	color:white;
+   text-transform: uppercase;
+   text-align: center;
+   
+}
+
+.photo img
+{
+	height: 300px;
+	margin-left : 30px;
+	margin-bottom: 30px;
+	
+		
+}
+
+#rognage img, #abattage img, #dechet img, #panneau img, #tonte img, #abris img
+{
+	border-radius: 5px;
+	 box-shadow: 0px 4px 4px #1c1a19;
+	
+}
+#left
+{
+	padding-left: 3px;
+}
+
+#right
+{
+	padding-right: 5px;
+		
+}
+.photoArticle:hover
+{
+	box-shadow: 0px 4px 4px #1c1a19;
+   border-radius: 5px;
+	
+
+}
+
+#detail
+{
+	text-align: center;
+}
+
+#realisation
+{
+	margin-left: 5px;
+}
+
+#jardinnage
+{
+	padding-top: 25px;
+}
+
+#vertical
+{
+	margin-left: 50px;
+}
+
+.envois h1
+{
+	background-color : #8B4513;
+	border-radius: 5px;
+	padding: 5px;
+
+	text-align: center;
+	text-transform: uppercase;
+	color: white; 
+}
+
+#mons
+{
+	margin-left:160px;
+}
+#vertical2
+{
+	margin-left: 70px;
+}
+
+form
+{
+	background-color : #8B4513;
+	border-radius: 5px;
+	padding: 5px;
+
+	
+	text-transform: uppercase;
+	color: white; 
+}
+
+form p
+{
+	margin-left: 300px;
+}
+
+.boutton
+{
+	background-color: orange;
+	border-radius: 5px;
+	padding: 5px;
+	margin-left: 400px;
+    box-shadow: 0px 4px 4px #1c1a19;
+	
+	text-transform: uppercase;
+}
+
+.boutton:hover
+{
+	background-color: orange;
+	border-radius: 5px;
+	padding: 5px;
+	margin-left: 400px;
+
+}
+
+
+#vanconingsloo
+{
+    font-size: 0.6em;
+    color: black;
+    padding-top: 10px;    
+}
+#vanconingsloo a
+{
+    text-decoration: none;
+    color:darkslateblue;
+    padding-left: 5px;
+}
